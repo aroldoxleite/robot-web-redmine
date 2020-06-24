@@ -1,7 +1,7 @@
 pipeline {
    agent {
         docker{
-            image 'python-chrome'
+            image 'aroldoxleite/python-chrome'
             args '--network=host'
         }   
    }
